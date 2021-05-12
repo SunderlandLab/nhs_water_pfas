@@ -10,7 +10,7 @@ library(maptools)
 library(raster)
 library(mapproj)
 library(data.table)
-mapUSm<- readShapePoly('/Users/cindyhu/Documents/Research/EWG/moveRC/state_shape/US_48states')
+mapUSm<- readShapePoly('US_48states')
 proj4string(mapUSm)<-CRS("+proj=longlat +datum=WGS84")
 
 xy<-data.frame(ID=df$id,X=df$gdtlong1990, Y=df$gdtlat1990)
