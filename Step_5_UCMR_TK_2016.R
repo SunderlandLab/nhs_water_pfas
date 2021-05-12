@@ -5,7 +5,7 @@ library(visreg)
 library(mgcv)
 library(ggplot2)
 library(reshape2)
-ucmr3_by_county<-read.csv('/Users/cindyhu/Documents/Courses/CS171/teamAqua/ucmr-3-occurrence-data/ucmrByCounty_final_030218_orig.csv')
+ucmr3_by_county<-read.csv('ucmrByCounty_final_030218_orig.csv')
 PFAS_2015<-cbind(ucmr3_by_county[,c('COUNTY','countyname','state')],
                  ucmr3_by_county[,grep('PFBS',colnames(ucmr3_by_county))],
                  ucmr3_by_county[,grep('PFHpA',colnames(ucmr3_by_county))],

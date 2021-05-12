@@ -5,7 +5,7 @@ library(mgcv)
 library(lambda.tools)
 library(EnvStats)
 
-setwd("~/Documents/Research/PFAS/NHSdrinking water/NHS data/Serum-water pair")
+#setwd("Serum-water pair")
 #source('main.R')
 #TK model
 #C_serum_m=AF*V_water*C_water/(bw*V_d*ln(2)/t_half)

@@ -5,8 +5,8 @@ library(reshape2)
 library(NADA)
 library(dplyr)
 
-one<-read.csv('/Users/cindyhu/Documents/Research/PFAS/NHSdrinking water/NHS data/Serum-water pair/one_230_022818.csv',header=T, stringsAsFactors = F)
-water_master_clean<-read.csv("/Users/cindyhu/Documents/Research/PFAS/NHSdrinking water/NHS data/Redone_addBranched/water_master_clean.csv",
+one<-read.csv('one_230_022818.csv',header=T, stringsAsFactors = F)
+water_master_clean<-read.csv("water_master_clean.csv",
                              header=T,
                              stringsAsFactors = F)
 colnames(water_master_clean)
